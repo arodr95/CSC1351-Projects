@@ -1,0 +1,24 @@
+package phonebookproject;
+
+//The Business class is a child class of Contact and has a private data member,
+//, zip. The method getInfo() overrides the Contact class's getInfo() method to
+//include the new data member of Business. 
+
+public class Business extends Contact{
+    
+    private int zip;
+    
+    
+    public Business (String name, long phone, int zip)
+    {
+        super(name, phone);
+        this.zip = zip;
+    }
+    
+    @Override
+    public void getInfo()
+    {
+        super.getInfo();
+        System.out.printf("%-15d\n", zip);
+    } 
+}
