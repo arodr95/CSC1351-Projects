@@ -1,0 +1,25 @@
+package phonebookproject;
+
+//The Person class is a child class of Contact and has a private data member,
+//, relationship. The method getInfo() overrides the Contact class's getInfo() 
+//method to include the new data member of Person. 
+
+public class Person extends Contact{
+    
+   private String relationship;
+   
+   
+   public Person (String name, long phone, String relationship)
+   {
+       super(name, phone);
+       this.relationship = relationship;
+   }
+   
+   @Override
+   public void getInfo()
+   {
+       super.getInfo();
+       System.out.printf("%-15s\n", relationship);
+          
+   }
+}
