@@ -11,7 +11,7 @@ public class CarsProject {
   
     /** 
      * This method initializes multiple Car objects with a 
-     * VIN number, year, and model. The method also sets the 
+     * VIN number, year, and model. The main method also sets the mileage 
      * of the car and calls the saveCarInfo method. 
      */    
     
