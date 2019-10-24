@@ -1,0 +1,33 @@
+package carsproject;
+
+
+public class Car {
+    
+    private long VINnumber;
+    private String model;
+    private int year;
+    private double mileage;
+    
+    //defualt constructor 
+    public Car(){};
+    
+    //constructor to intialize the VIN number, year, and model of a car object
+    public Car(long vinnumber, int Year, String Model)
+    {
+        VINnumber = vinnumber;
+        year = Year;
+        model = Model;
+    }
+    
+    //sets mileage of the car 
+    public void setMileage(double Mileage)
+    {
+        mileage = Mileage;
+    }
+    
+    //returns a string containing the information of the car 
+    public String getInfo ()
+    {        
+        return year + " " + model + " (VIN: " + VINnumber + ", mileage: " + mileage + " miles)";
+    }
+}
