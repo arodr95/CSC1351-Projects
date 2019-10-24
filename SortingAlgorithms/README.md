@@ -4,10 +4,11 @@ This project is intended to demonstrate the implementations of the Bubble Sort, 
 
 Getting Started:
 
+Use the source code from the sortingAlgorithms file on any java compiler.
 
 Tests:
 
-Input varying array sizes ranging from 100 - 1000000 to see compare the efficiencies of each sorting algorithm based on time and steps taken. 
+Input varying array sizes, when prompted, ranging from 100 - 1000000 to see compare the efficiencies of each sorting algorithm based on time and steps taken. 
 
 Built With:
 
