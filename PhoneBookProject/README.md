@@ -4,7 +4,7 @@ The purpose of this project is to demonstrate the topics of inheritance, aggrega
 
 Getting Started:
 
-Use the main, phonebook, contact, person, and business files on any java compiler or IDE. 
+Use the main, phonebook, contact, person, and business files on any Java compiler or IDE. 
 
 Tests:
 
