@@ -1,1 +1,29 @@
+package phonebookproject;
 
+//The class Contact has two variables, name and phone, and has a method to print
+//the information of each instance in a formatted list, getInfo(). The method
+//compareTo() Overrides the comparable interface and sorts our list in alphabetical
+//order.
+public class Contact implements Comparable <Contact> {
+    
+    public String name;
+    public long phone;
+    
+    public Contact (String name, long phone)
+    {
+        this.name = name;
+        this.phone = phone;
+    }
+    
+    public void getInfo()
+    {
+        System.out.printf("%-20s%-15d", name, phone);
+    }
+    
+    @Override
+    public int compareTo(Contact other)
+    {
+        return name.compareTo(other.name); 
+    }
+    
+}
