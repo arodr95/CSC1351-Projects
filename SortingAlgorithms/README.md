@@ -4,7 +4,7 @@ This project is intended to demonstrate the implementations of the Bubble Sort, 
 
 Getting Started:
 
-Use the source code from the sortingAlgorithms file on any java compiler.
+Use the source code from the main file on any java compiler.
 
 Tests:
 
